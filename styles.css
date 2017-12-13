@@ -1,0 +1,27 @@
+h1{
+    background-color: red;
+    color: white;
+    margin: 0px;
+    margin-bottom: 10px;
+    padding: 8px;
+    text-align: center;
+}
+
+body{
+    margin: 0px;
+}
+
+/* open button */
+#open {
+    position: static;
+}
+
+#output {
+    position: absolute;
+    left: 180px;
+}
+
+/* save button */
+#btn {
+    position: static;
+}

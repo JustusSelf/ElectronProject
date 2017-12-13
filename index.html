@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Electron Page</title>
+    </head>
+
+    <body>
+        <h1> Task List </h1>
+
+        <button id='open'>Open A file</button>
+        <textarea id='output' rows=3></textarea>
+
+        <button id="btn">Save File</button>
+
+        <script>
+        require('./renderer.js')
+        </script>
+
+    </body>
+</html>
